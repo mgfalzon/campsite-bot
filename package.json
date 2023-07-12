@@ -1,0 +1,22 @@
+{
+  "name": "campsite-bot",
+  "version": "1.0.0",
+  "description": "Playwright bot for automating campsite reservations",
+  "main": "index.js",
+  "repository": "https://github.com/mgfalzon/campsite-bot",
+  "author": "mfalzon",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "DEBUG=true ts-node index.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
